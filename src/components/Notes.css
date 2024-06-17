@@ -1,0 +1,57 @@
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.note-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(91, 198, 255);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.note-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(69, 168, 255);
+}
+
+.note-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.note-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.note-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.note-download-button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.note-download-button:hover {
+    background: #0056b3;
+}

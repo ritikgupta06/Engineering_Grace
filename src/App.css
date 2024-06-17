@@ -1,0 +1,12 @@
+.app {
+    text-align: center;
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
